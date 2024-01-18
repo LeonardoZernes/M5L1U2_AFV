@@ -1,0 +1,74 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 3 */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 3em;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* DEFINIMOS LOS ESTILOS DE LA TABLA */
+.tabla_paises {
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+.tabla_paises th {
+    background-color: rgb(1, 133, 89);
+    color: white;
+    padding: 10px 20px 10px 10px;
+}
+.tabla_paises td, .tabla_paises th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tabla_paises tr {
+    background-color: white;
+}
+.tabla_paises tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.tabla_paises tr:hover {
+    background-color: #ddd;
+}
+
+/* DEFINIMOS LOS ESTILOS PARA LA VISUALIZACION DE LA CAJA RECORDATORIO */
+.recordatorio {
+    background-color: aqua;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    margin: 40px auto auto auto;
+    width: auto;
+    box-shadow: 0px 5px 5px 2px grey;
+}
+.recordatorio > p > a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.recordatorio > p > a:hover  {
+    color: lightskyblue;
+}
+
+/* ESTILOS DEL PIE DE PÁGINA */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
