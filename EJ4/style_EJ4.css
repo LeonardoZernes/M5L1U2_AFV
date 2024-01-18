@@ -1,0 +1,58 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 4 */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(230, 210, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 3em;
+    font-family: 'Brush Script MT', cursive;
+}
+/* ESTILOS DEL CUERPO DE LA PÁGINA */
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+.negrita {
+    font-weight: bold;
+}
+.cursiva {
+    font-style: italic;
+}
+.subrayado {
+    text-decoration: underline;
+}
+.grande {
+    font-size: xx-large;
+}
+.pequenia {
+    font-size: small;
+}
+.texto_azul {
+    color: blue;
+}
+.fondo_rojo {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/* ESTILOS DEL PIE DE PÁGINA */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
